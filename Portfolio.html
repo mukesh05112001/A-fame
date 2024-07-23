@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website </title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" width="10%" class="logo" alt="Logo">
+                <ul>
+                   <li><a href="#header">Home</a> </li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#services">Service</a></li>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#contact">Contact</a></li>
+            <!--- <i class="fa-regular fa-circle-xmark" style="color: #ff006f;"></i>
+                   <i class="fa-solid fa-bars" style="color: #d5105f;"></i>
+                </ul>
+                <i class="fa-solid fa-bars" style="color: #d5105f;"></i> -->
+
+            </nav>
+            <div class="header-text">
+               <!-- <p>UX/UI Designer</p>-->
+                <p>Web App Developer</p>
+                <h1>Hi, I'Am <span>Mukesh</span><br> From Kekri Rajsthan</h1>
+            </div>
+        </div>
+    </div>
+    <!-------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/mu.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis eum, maxime inventore autem quae sunt incidunt dolore magni dolorum itaque nesciunt, quaerat voluptatem iure voluptates id harum quidem, illum molestiae deserunt vel blanditiis! Facilis voluptate ipsa culpa eaque exercitationem laborum incidunt, molestiae dolores itaque suscipit sapiente. Mollitia corrupti culpa doloribus tenetur quis ut soluta. Voluptatum eius distinctio cum enim?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education', event)">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="Skills">
+                        <!-- Skills content here -->
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web / Frontend Development</span><br></li>
+                            <li>HTML/CSS <br>JAVASCRIPT, RECAT, BOOSTRAP, JQUERAY</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Experience">
+                        <!-- Experience content here -->
+
+                        <ul>
+                            <li><span>2024- Current</span><br>Intership July 2024 Afame Technologies </li>
+                            <li><span>2023 oct  </span><br>NullClass Intership </li>
+                            <li>HTML/CSS <br>JAVASCRIPT, RECAT, BOOSTRAP, JQUERAY</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Education">
+                        <!-- Education content here -->
+
+                        <ul>
+                            <li><span>2024 Current</span><br>BCA SEMESTER-2 RUNNING MDSU AJMER</li>
+                            <li><span>2023-24 Current</span><br>BCA SEMESTER-1 MDSU AJMER</li>
+                            <li><span>2022-23 </span><br> PGDCA MDSU AJMER</li>
+                            
+                        </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------Service section start------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" style="color: #B197FC;"></i>
+        
+               
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quod?</p>
+                <a href="#">Lern More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-pen-ruler" style="color: #63E6BE;"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quod?</p>
+                <a href="#">Lern More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store" style="color: #FFD43B;"></i>
+                <h2>Web application</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quod?</p>
+                <a href="#">Lern More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!----Portfolio------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work1.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you yo the talented people around the world. Donwlod it From play Store..</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="img/work2.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Game App</h3>
+                    <p>The app connect you yo the talented people around the world. Donwlod it From play Store..</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="img/work3.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Music App</h3>
+                    <p>The app connect you yo the talented people around the world. Donwlod it From play Store..</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+          <a href="#" class="btn">See More</a>
+
+    </div>
+</div>
+<!--------contact---->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-share-from-square" style="color: #2be3d7;"></i> Mukeshkumark6376@gmail.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #74C0FC;"></i> +916376355072</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-square-instagram" style="color: #d220df;"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook" style="color: #74C0FC;"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter" style="color: #74C0FC;"></i></a>
+
+                    <a href=""><i class="fa-brands fa-linkedin" style="color: #1d59d3;"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp" style="color: #18ecad;"></i></a>
+                </div>
+                <a href="img/mukesh-cv.pdf" download="" class="btn btn2">Donwlod CV</a>
+
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email id" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Mukesh Made With<i class="fa-solid fa-heart" style="color: #eb0f67;"></i> by Afame Technologies Intership programs Project. </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="js/port.js"></script>
+</body>
+</html>
